@@ -16,7 +16,7 @@ const port = process.env.PORT || "3001";
 
 
 app.get('/', (req, res)=>{
-    res.send("API running!");
+    res.send("Libary is alive :)");
 });
 
 app.listen(port, ()=>{
